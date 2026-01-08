@@ -1,0 +1,67 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations(assignments())/$entity",
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+  "@odata.id": "deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')",
+  "@odata.editLink": "deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration",
+  "id": "d36668c6-ccfc-4199-8855-66006da84f5d",
+  "lastModifiedDateTime@odata.type": "#DateTimeOffset",
+  "lastModifiedDateTime": "2026-01-08T11:38:41.9142456Z",
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supportsScopeTags": true,
+  "deviceManagementApplicabilityRuleOsEdition": null,
+  "deviceManagementApplicabilityRuleOsVersion": null,
+  "deviceManagementApplicabilityRuleDeviceMode": null,
+  "createdDateTime@odata.type": "#DateTimeOffset",
+  "createdDateTime": "2026-01-08T11:38:41.9142456Z",
+  "description": "Shares Windows Media Player libraries to other networked players and media devices using Universal Plug and Play.\nThe recommended state for this setting is: Disabled or Not Installed.\nRationale:\nNetwork sharing of media from Media Player has no place in an enterprise managed environment.\nImpact:\nWindows Media Player libraries will not be shared over the network to other devices and systems.",
+  "displayName": "V4-CIS-L1-D-Media-Ensure Windows Media Player Network Sharing Service (WMPNetworkSvc) is set to Disabled",
+  "version": 1,
+  "omaSettings@odata.type": "#Collection(microsoft.graph.omaSetting)",
+  "omaSettings": [
+    {
+      "@odata.type": "#microsoft.graph.omaSettingInteger",
+      "displayName": "Windows Media Player Network Sharing",
+      "description": "Windows Media Player Network Sharing",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/SystemServices/ConfigureWindowsMediaPlayerNetworkSharingServiceStartupMode",
+      "secretReferenceValueId": null,
+      "isEncrypted": false,
+      "value": 4,
+      "isReadOnly": false
+    }
+  ],
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/assignments",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/assignments/$ref",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/assignments",
+  "assignments": [],
+  "deviceSettingStateSummaries@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/deviceSettingStateSummaries/$ref",
+  "deviceSettingStateSummaries@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/deviceSettingStateSummaries",
+  "deviceStatuses@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/deviceStatuses/$ref",
+  "deviceStatuses@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/deviceStatuses",
+  "deviceStatusOverview@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/deviceStatusOverview/$ref",
+  "deviceStatusOverview@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/deviceStatusOverview",
+  "groupAssignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/groupAssignments/$ref",
+  "groupAssignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/groupAssignments",
+  "userStatuses@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/userStatuses/$ref",
+  "userStatuses@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/userStatuses",
+  "userStatusOverview@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/userStatusOverview/$ref",
+  "userStatusOverview@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.windows10CustomConfiguration/userStatusOverview",
+  "#microsoft.graph.assign": {
+    "title": "microsoft.graph.assign",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.deviceConfiguration/microsoft.graph.assign"
+  },
+  "#microsoft.graph.assignedAccessMultiModeProfiles": {
+    "title": "microsoft.graph.assignedAccessMultiModeProfiles",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.deviceConfiguration/microsoft.graph.assignedAccessMultiModeProfiles"
+  },
+  "#microsoft.graph.windowsPrivacyAccessControls": {
+    "title": "microsoft.graph.windowsPrivacyAccessControls",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.deviceConfiguration/microsoft.graph.windowsPrivacyAccessControls"
+  },
+  "#microsoft.graph.getOmaSettingPlainTextValue": {
+    "title": "microsoft.graph.getOmaSettingPlainTextValue",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('d36668c6-ccfc-4199-8855-66006da84f5d')/microsoft.graph.deviceConfiguration/microsoft.graph.getOmaSettingPlainTextValue"
+  }
+}

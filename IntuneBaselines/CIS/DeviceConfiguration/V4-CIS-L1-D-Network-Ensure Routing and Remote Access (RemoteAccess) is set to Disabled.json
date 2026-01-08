@@ -1,0 +1,67 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations(assignments())/$entity",
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+  "@odata.id": "deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')",
+  "@odata.editLink": "deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration",
+  "id": "3567efea-1997-43ff-a3b6-f6b956288794",
+  "lastModifiedDateTime@odata.type": "#DateTimeOffset",
+  "lastModifiedDateTime": "2026-01-08T11:37:47.7384511Z",
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supportsScopeTags": true,
+  "deviceManagementApplicabilityRuleOsEdition": null,
+  "deviceManagementApplicabilityRuleOsVersion": null,
+  "deviceManagementApplicabilityRuleDeviceMode": null,
+  "createdDateTime@odata.type": "#DateTimeOffset",
+  "createdDateTime": "2026-01-08T11:33:14.2971111Z",
+  "description": "Offers routing services to businesses in local area and wide area network environments.\nThe recommended state for this setting is: Disabled.\nRationale:\nThis service's main purpose is to provide Windows router functionality - this is not an appropriate use of workstations in an enterprise managed environment.\nImpact:\nThe computer will not be able to be configured as a Windows router between different connections.",
+  "displayName": "V4-CIS-L1-D-Network-Ensure Routing and Remote Access (RemoteAccess) is set to Disabled",
+  "version": 2,
+  "omaSettings@odata.type": "#Collection(microsoft.graph.omaSetting)",
+  "omaSettings": [
+    {
+      "@odata.type": "#microsoft.graph.omaSettingInteger",
+      "displayName": "Routing and Remote Access Disabled",
+      "description": "Routing and Remote Access Disabled",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/SystemServices/ConfigureRoutingAndRemoteAccessServiceStartupMode",
+      "secretReferenceValueId": null,
+      "isEncrypted": false,
+      "value": 4,
+      "isReadOnly": false
+    }
+  ],
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/assignments",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/assignments/$ref",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/assignments",
+  "assignments": [],
+  "deviceSettingStateSummaries@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/deviceSettingStateSummaries/$ref",
+  "deviceSettingStateSummaries@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/deviceSettingStateSummaries",
+  "deviceStatuses@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/deviceStatuses/$ref",
+  "deviceStatuses@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/deviceStatuses",
+  "deviceStatusOverview@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/deviceStatusOverview/$ref",
+  "deviceStatusOverview@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/deviceStatusOverview",
+  "groupAssignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/groupAssignments/$ref",
+  "groupAssignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/groupAssignments",
+  "userStatuses@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/userStatuses/$ref",
+  "userStatuses@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/userStatuses",
+  "userStatusOverview@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/userStatusOverview/$ref",
+  "userStatusOverview@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.windows10CustomConfiguration/userStatusOverview",
+  "#microsoft.graph.assign": {
+    "title": "microsoft.graph.assign",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.deviceConfiguration/microsoft.graph.assign"
+  },
+  "#microsoft.graph.assignedAccessMultiModeProfiles": {
+    "title": "microsoft.graph.assignedAccessMultiModeProfiles",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.deviceConfiguration/microsoft.graph.assignedAccessMultiModeProfiles"
+  },
+  "#microsoft.graph.windowsPrivacyAccessControls": {
+    "title": "microsoft.graph.windowsPrivacyAccessControls",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.deviceConfiguration/microsoft.graph.windowsPrivacyAccessControls"
+  },
+  "#microsoft.graph.getOmaSettingPlainTextValue": {
+    "title": "microsoft.graph.getOmaSettingPlainTextValue",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('3567efea-1997-43ff-a3b6-f6b956288794')/microsoft.graph.deviceConfiguration/microsoft.graph.getOmaSettingPlainTextValue"
+  }
+}
